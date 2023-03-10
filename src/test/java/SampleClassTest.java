@@ -22,8 +22,8 @@ public class SampleClassTest {
         driver.manage().window().maximize();
 
         //Scroll down the webpage by 5000 pixels
-        JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("scrollBy(0, 5000)");
+        //JavascriptExecutor js = (JavascriptExecutor)driver;
+        //js.executeScript("scrollBy(0, 5000)");
 
         System.out.println("The title of the page is : " + driver.getTitle());
 
